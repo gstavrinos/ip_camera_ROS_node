@@ -1,0 +1,9 @@
+topic: '/ip_camera_node/image'
+
+username: 'root'
+
+password: 'drrobot'
+
+url: '192.168.0.65:8081/mjpg/video.mjpg'
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<launch>
+	<master auto="start"/>
+
+	<node pkg="ip_camera_node" type="ip_camera_node" respawn="false" name="ip_camera_node" output="screen">
+		<rosparam file="$(find ip_camera_node)/config/parameters.yaml" command="load" />
+	</node>
+</launch>
